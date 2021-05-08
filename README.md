@@ -1,0 +1,1 @@
+This is a little practice with JS and Bootstrap, because I'm learning about these technologies.

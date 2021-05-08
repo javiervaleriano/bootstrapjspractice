@@ -1,0 +1,20 @@
+.h1 {
+	margin-bottom: 1em;
+}
+
+#p-programar {
+	margin: 1.5em 0 .5em;
+}
+
+#encabezado-estudia {
+	margin: 1.5em 0 .3em;
+}
+
+#buttons-row {
+	margin-top: 1em;
+	margin-bottom:1.5em;
+}
+
+.input-checkbox-form, .input-radio-form, .form-check-label {
+	cursor: pointer;
+}
