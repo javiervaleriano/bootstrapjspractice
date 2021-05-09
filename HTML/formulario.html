@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos JS</title>
+
+	<!-- Meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="text/css" href="../Imgs/favicon.ico">
+
+	<!-- Estilos -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../CSS/eventos.css">
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/af06c6c1e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="h1 text-center">Probando eventos de JS</h1>
+
+		<form id="formulario" action="https://www.google.com">
+			<div class="row mt-4 mb-1">
+				<label class="col-sm-2 col-form-label form-check-label">Nombre</label>
+				<div class="col">
+					<input id="text-nombre" class="form-control" type="text" name="nombre">
+				</div>
+				<p id="n-nombre" class="text-center mt-1 mb-3"></p>
+			</div>
+
+			<div class="row mb-4">
+				<label class="col-sm-2 col-form-label form-check-label">Correo</label>
+				<div class="col">
+					<input id="text-correo" type="email" name="email" class="form-control" placeholder="nombre@ejemplo.com">
+				</div>
+				<p id="enfoque" class="text-center mt-1 mb-3"></p>
+			</div>
+
+			<div class="form-check form-switch mt-5 mb-4">
+					<input id="check-estudia" class="form-check-input" type="checkbox" name="estudia">
+					<label class="form-check-label">Desliza el switch si eres estudiante</label>
+			</div>
+
+			<div id="div-nivel-estudio" class="mb-4">
+				<label class="form-label">Nivel de estudio</label>
+				<select id="select-nivel" name="nivel-de-estudio" class="form-select">
+					<option selected>Selecciona una opción</option>
+					<option value="Primaria">Primaria</option>
+					<option value="Secundaria">Secundaria</option>
+					<option value="Preparatoria">Preparatoria</option>
+					<option value="Universidad">Universidad</option>
+				</select>
+			</div>
+
+			<div class="text-center">
+				<input id="boton-envioform" class="btn btn-primary" type="submit" name="envio">
+			</div>
+		</form>
+
+		<button id="modo-oscuro" type="button" class="btn btn-outline-secondary"><i class="fas fa-moon"></i> Modo oscuro</button>
+
+		<div class="row">
+			<div class="col-12 mb-1">
+				<a href="index.html" class="text-decoration-none fs-6 text-info">Formulario principal</a>
+			</div>
+			<div class="col-12">
+				<a href="tablas.html" class="text-decoration-none fs-6 text-info">Tabla modificable</a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../JS/eventos.js"></script>
+</body>
+</html>

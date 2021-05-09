@@ -1,0 +1,14 @@
+.container {
+	height: 100vh;
+	position: relative;
+}
+
+#div-nivel-estudio {
+	display: none;
+}
+
+#modo-oscuro {
+	position: absolute;
+	bottom: 3em;
+	right: 1em;
+}
