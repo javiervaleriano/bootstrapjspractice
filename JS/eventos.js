@@ -71,8 +71,8 @@ botonOscuro.onclick = function clarOscuro() {
 
 		botonEnvio.classList.remove('btn-primary');
 		botonEnvio.style.borderColor = '#2DC660';
-		botonEnvio.style.color = '#2DC660';
-		botonEnvio.style.backgroundColor = 'transparent';
+		botonEnvio.style.color = '#fff';
+		botonEnvio.style.backgroundColor = '#2DC660';
 
 		botonOscuro.classList.replace('btn-outline-secondary', 'btn-outline-warning');
 		botonOscuro.innerHTML = '<i class="fas fa-sun"></i> Modo claro';
